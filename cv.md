@@ -9,7 +9,7 @@
 
 ## About Me
 
-I am 25 years old. My main education - automotive engineer, but all my life I have spent with computers, and it was always interesting not only to use computer, but develop software for it. So, I started to make my dream real in RSSchool.
+I am 25 years old. My main education - automotive engineer, but all my life I have spent with computers, and it was always interesting not only to use computer, but develop software for it. So, I started to make my dream real in **RSSchool**.
 
 ## Skills
 
@@ -53,10 +53,13 @@ I am 25 years old. My main education - automotive engineer, but all my life I ha
 * Automotive and Electromechanical College
 * Saint Petersburg State University of Architecture and Civil Engineering (SPbGASU) Lifting and transportation, construction, road vehicles and equipment
 Specialist degree
+* HTML courses in Epic Skills School
 
 # Experience
 
+In learning process I participated in learning team projects
 
 # English
 
 B1 Intermediate
+*I have English classes every week*
