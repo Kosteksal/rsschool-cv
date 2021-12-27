@@ -1,23 +1,23 @@
 # Konstantin Alekseev
-***********
+
 ## My contact info:
-***********
+
 * Location: Saint-Petersburg, Russia
 * Phone: +79112528732
 * E-mail: kosteks@outlook.com
 * GitHub: Kosteksal
 
 ## About Me
-***********
+
 I am 25 years old. My main education - automotive engineer, but all my life I have spent with computers, and it was always interesting not only to use computer, but develop software for it. So, I started to make my dream real in RSSchool.
 
 ## Skills
----
+
 * HTML
 * CSS
 
 ## Soft skills
----
+
 * Self-motivation
 * Responsibility
 * Flexibility
@@ -25,8 +25,8 @@ I am 25 years old. My main education - automotive engineer, but all my life I ha
 * Creativity
 
 ## Code example
----
-```
+
+```CSS
 .toggler {
     position: relative;
     width: 24px;
@@ -49,14 +49,14 @@ I am 25 years old. My main education - automotive engineer, but all my life I ha
 ```
 
 # Education
----
+
 * Automotive and Electromechanical College
 * Saint Petersburg State University of Architecture and Civil Engineering (SPbGASU) Lifting and transportation, construction, road vehicles and equipment
 Specialist degree
 
 # Experience
----
+
 
 # English
----
+
 B1 Intermediate
