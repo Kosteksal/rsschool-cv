@@ -26,7 +26,7 @@ I am 25 years old. My main education - automotive engineer, but all my life I ha
 
 ## Code example
 ---
-'''
+```
 .toggler {
     position: relative;
     width: 24px;
@@ -46,7 +46,7 @@ I am 25 years old. My main education - automotive engineer, but all my life I ha
     background: #f9fcfc;
     margin: 0 auto;
 }
-'''
+```
 
 # Education
 ---
