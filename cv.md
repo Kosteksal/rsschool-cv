@@ -7,7 +7,20 @@
 * E-mail: kosteks@outlook.com
 * GitHub: Kosteksal
 
-About Me
+## About Me
 ***********
 I am 25 years old. My main education - automotive engineer, but all my life I have spent with computers, and it was always interesting not only to use computer, but develop software for it. So, I started to make my dream real in RSSchool.
+
+## Skills
+---
+* HTML
+* CSS
+
+## Soft skills
+---
+* Self-motivation
+* Responsibility
+* Flexibility
+* Teamwork
+* Creativity
 
