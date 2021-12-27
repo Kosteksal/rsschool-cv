@@ -24,3 +24,39 @@ I am 25 years old. My main education - automotive engineer, but all my life I ha
 * Teamwork
 * Creativity
 
+## Code example
+---
+'''
+.toggler {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin-left: 10px;
+    margin-top: 20px;
+    transform: rotate(90deg);
+}
+
+.toggler span,
+.toggler:after,
+.toggler:before {
+    height: 24px;
+    width: 2px;
+    position: absolute;
+    background: #f9fcfc;
+    margin: 0 auto;
+}
+'''
+
+# Education
+---
+* Automotive and Electromechanical College
+* Saint Petersburg State University of Architecture and Civil Engineering (SPbGASU) Lifting and transportation, construction, road vehicles and equipment
+Specialist degree
+
+# Experience
+---
+
+# English
+---
+B1 Intermediate
