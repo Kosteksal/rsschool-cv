@@ -54,6 +54,7 @@ I am 25 years old. My main education - automotive engineer, but all my life I ha
 Specialist degree
 * HTML courses in Epic Skills School
 
+
 # Experience
 
 In learning process I participated in learning team projects
