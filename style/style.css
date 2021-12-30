@@ -361,6 +361,46 @@ h3 {
     top: 1320px;
 }
 
+.education__title {
+    font-family: Manrope, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 120%;
+    color: #282828;
+}
+
+.li-edu {
+    font-family: Manrope, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: #282828;
+    margin-bottom: 30px;
+}
+
+.lang-text {
+    font-family: Manrope, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: #282828;
+    margin-bottom: 30px;
+}
+
+.education__title:after {
+    content: "";
+    background-color: #f7a325;
+    height: 4px;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    top: 2450px;
+}
 
 
 @media(min-width: 720px) {
@@ -469,6 +509,10 @@ h3 {
 
     .skills__title:after {
         top: 1250px;
+    }
+
+    .education__title:after {
+        top: 2220px;
     }
 
 }
@@ -596,6 +640,10 @@ h3 {
 
     .skills__title:after {
         top: 1390px;
+    }
+
+    .education__title:after {
+        top: 2400px;
     }
 
 }
