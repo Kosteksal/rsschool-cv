@@ -1,0 +1,405 @@
+/* manrope-regular - latin_cyrillic */
+@font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('../fonts/manrope-v3-latin_cyrillic-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/manrope-v3-latin_cyrillic-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* manrope-500 - latin_cyrillic */
+@font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+        url('../fonts/manrope-v3-latin_cyrillic-500.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/manrope-v3-latin_cyrillic-500.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* manrope-600 - latin_cyrillic */
+@font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+        url('../fonts/manrope-v3-latin_cyrillic-600.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/manrope-v3-latin_cyrillic-600.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* manrope-700 - latin_cyrillic */
+@font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+        url('../fonts/manrope-v3-latin_cyrillic-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/manrope-v3-latin_cyrillic-700.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* manrope-800 - latin_cyrillic */
+@font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    src: local(''),
+        url('../fonts/manrope-v3-latin_cyrillic-800.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/manrope-v3-latin_cyrillic-800.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: Manrope, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 110%;
+    /* or 40px */
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-top: 8px;
+}
+
+header {
+    background-color: #104f8b;
+    height: 50px;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #282828;
+}
+
+.container-inner__header {
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-inner {
+    margin-left: 16px;
+    margin-right: 16px;
+    display: block;
+}
+
+.container__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__list__desctop {
+    display: none;
+}
+
+.nav {
+    display: none;
+}
+
+.nav__item {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.nav__item:hover {
+    text-decoration: underline;
+}
+
+.nav--open {
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    background: #104f8b;
+    width: 94%;
+    height: 300%;
+    left: 0;
+    top: 35px;
+    margin-top: 9px;
+    padding: 20px;
+    font-family: Manrope, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.nav__list {
+    padding: 0;
+}
+
+.nav__list:after {
+    content: "";
+    background: #FFFFFF;
+    height: 2px;
+    width: 80%;
+    position: absolute;
+    top: 200px;
+}
+
+.container__header--open {
+    background-color: #104f8b;
+}
+
+.toggler {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin-left: 10px;
+    margin-top: 20px;
+    transform: rotate(90deg);
+}
+
+.toggler span,
+.toggler:after,
+.toggler:before {
+    height: 24px;
+    width: 2px;
+    position: absolute;
+    background: #f9fcfc;
+    margin: 0 auto;
+}
+
+.toggler span {
+    /*top: 21px;*/
+}
+
+.toggler:after,
+.toggler:before {
+    content: '';
+}
+
+.toggler:after {
+    right: 14px;
+}
+
+.toggler:before {
+    left: -7px;
+}
+
+.toggler.open-menu span {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.toggler.open-menu:before {
+    transform: rotate(38deg);
+    top: 0px;
+    left: 6px;
+    transition: 0.4s;
+}
+
+.toggler.open-menu:after {
+    transform: rotate(-38deg);
+    bottom: 0px;
+    left: 4px;
+    transition: 0.4s;
+}
+
+
+.promo {
+    background-image: url(../img/image1.jpg);
+    background-size: cover;
+    height: 260px;
+    width: 100%;
+}
+
+.promo__text {
+    font-family: Manrope, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    color: #FFFFFF;
+    position: absolute;
+    top: 270px;
+}
+
+
+
+
+
+
+
+
+@media(min-width: 720px) {
+
+    header {
+        height: 90px;
+
+    }
+
+    .toggler {
+        z-index: 2;
+    }
+
+    .nav__list__desctop {
+        display: none;
+    }
+
+    .nav--open {
+        width: 320px;
+    }
+
+    .container-inner__header {
+        align-content: center;
+        padding-top: 12px;
+    }
+
+    .toggler {
+        order: 3;
+    }
+
+    .promo {
+        height: 403px;
+        position: relative;
+    }
+
+    h1 {
+        margin: 0;
+
+        font-family: Manrope, sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 60px;
+        line-height: 110%;
+        text-align: right;
+        letter-spacing: 0.02em;
+    }
+
+    .promo__title {
+        margin-left: 20px;
+        width: 640px;
+        height: 132px;
+        position: absolute;
+        top: 5px;
+    }
+
+    .promo__text {
+        width: 380px;
+        height: 56px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 140%;
+        text-align: right;
+        position: absolute;
+        top: 45px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+@media(min-width: 1080px) {
+    header {
+        height: 90px;
+
+    }
+
+    .toggler {
+        display: none;
+    }
+
+    .container-inner {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .container-inner__header {
+        align-content: center;
+        padding-top: 12px;
+
+    }
+
+    .nav__list__desctop {
+        display: flex;
+        justify-content: space-between;
+        font-family: Manrope, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 27px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+
+    }
+
+    .nav__item {
+        margin-right: 25px;
+        margin-bottom: 0;
+    }
+
+    .promo {
+        height: 604px;
+        position: relative;
+    }
+
+    h1 {
+        margin: 0;
+
+        font-family: Manrope, sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 84px;
+        line-height: 110%;
+        text-align: right;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+
+    .promo__title {
+        margin-left: 20px;
+        width: 1000px;
+        height: 184px;
+        position: absolute;
+        top: 5px;
+    }
+
+    .promo__text {
+        width: 458px;
+        height: 84px;
+        font-family: Manrope, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 140%;
+        text-align: right;
+        color: #FFFFFF;
+        position: absolute;
+        top: 65px;
+        left: 145px;
+    }
+
+
+}
