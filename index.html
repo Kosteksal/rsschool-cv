@@ -1,12 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/style.css">
 </head>
-<body>
-    
-</body>
-</html>
+
+<body class="body">
+    <header>
+        <div class="container container__header">
+            <div class="container-inner__header">
+                <div class="toggler" id="toggler"><span></span></div>
+                <ul class="nav__list__desctop">
+                    <li class="nav__item"><a class="nav__item" href="#about" >About</a></li>
+                    <li class="nav__item"><a class="nav__item" href="#contacts">Contacts</a></li>
+                    <li class="nav__item"><a class="nav__item" href="#skills">Skills</a></li>
+                    <li class="nav__item"><a class="nav__item" href="#education">Education</a></li>
+                </ul>
+                <div id="nav" class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a class="nav__item" href="#about" >About</a></li>
+                    <li class="nav__item"><a class="nav__item" href="#contacts">Contacts</a></li>
+                    <li class="nav__item"><a class="nav__item" href="#skills">Skills</a></li>
+                    <li class="nav__item"><a class="nav__item" href="#education">Education</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="promo" id="promo">
+            <div class="container">
+                <div class="container-inner">
+                    <h1 class="promo__title">Konstantin Alekseev</h1>
+                    <p class="promo__text">Front-end web developer (Beginner)</p>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="container">
+                <div class="container-inner__about">    
+                    <h2 class="about__title">About me</h2>
+                    <p class="about__text">I am 25 years old. My main education - automotive engineer, but all my life I have spent with computers, and it was always interesting not only to use computer, but develop software for it. So, I started to make my dream real in RSSchool. I hope, that in result of my learning i will be a nice front-end web developer!</p>
+                </div>
+            </div>
+        </section>
+        <section class="contacts" id="contacts">
+            <div class="container">
+                <div class="container-inner__contacts">  
+                    <h2 class="contacts__title">My contacts</h2>  
+                 <div class="contacts-mobil">
+                     <p class="contacts-item"><b>Phone</b></p>
+                     <a class="contacts-item" href="tel:+79112528732">+7 (911) 252 87 32</a>
+                     <p class="contacts-item"><b>E-mail</b></p>
+                     <a class="contacts-item" href="mailto:kosteks@outlook.com">kosteks@outlook.com</a>
+                     <p class="contacts-item"><b>GitHub</b></p>
+                     <a class="contacts-item" href="https://github.com/Kosteksal">Kosteksal</a>
+                     <p class="contacts-item"><b>Discord</b></p>
+                     <a class="contacts-item" href="https://discordapp.com/users/Kosteks#9112/">Kosteks#9112</a>
+                 </div>
+                 <div class="contacts-desctop">
+                     <div class="contacts-col-1">
+                        <p class="contacts-item"><b>Phone</b></p>
+                        <p class="contacts-item"><b>E-mail</b></p>
+                        <p class="contacts-item"><b>GitHub</b></p>
+                        <p class="contacts-item"><b>Discord</b></p>
+                     </div>
+                     <div class="contacts-col-2">
+                        <a class="contacts-item" href="tel:+79112528732">+7 (911) 252 87 32</a>
+                        <a class="contacts-item" href="mailto:kosteks@outlook.com">kosteks@outlook.com</a>
+                        <a class="contacts-item" href="https://github.com/Kosteksal">Kosteksal</a>
+                        <a class="contacts-item" href="https://discordapp.com/users/Kosteks#9112/">Kosteks#9112</a>
+                     </div>
+                 </div>
+                </div>
+            </div>
+        </section>
+        <section class="Skills" id="skills">
+            <div class="container">
+                <div class="container-inner__skills">  
+                    <h2 class="skills__title">My skills</h2>
+                    <div class="skills-direction">
+                    <div class="hard-skills">
+                        <h3>Hard skills</h3>
+                        <ul class="ul-skills">
+                            <li class="li-skills">HTML</li>
+                            <li class="li-skills">CSS</li>
+                        </ul>
+                    </div>
+                    <div class="soft-skills">
+                        <h3>Soft skills</h3>
+                        <ul class="ul-skills">
+                            <li class="li-skills">Self-motivation</li>
+                            <li class="li-skills">Responsibility</li>
+                            <li class="li-skills">Flexibility</li>
+                            <li class="li-skills">Teamwork</li>
+                            <li class="li-skills">Creativity</li>
+                        </ul>
+                    </div>
+                    </div>
+                    <h3>Code example</h3>
+                    <pre>
+                        <code>
+                            .toggler {
+                                position: relative;
+                                width: 24px;
+                                height: 24px;
+                                display: block;
+                                margin-left: 10px;
+                                margin-top: 20px;
+                                transform: rotate(90deg);
+                            }
+                            
+                            .toggler span,
+                            .toggler:after,
+                            .toggler:before {
+                                height: 24px;
+                                width: 2px;
+                                position: absolute;
+                                background: #f9fcfc;
+                                margin: 0 auto;
+                            }
+                        </code>
+                        </pre>
+                </div>
+            </div>
+        </section>
+        <section class="Education" id="education">
+            <div class="container">
+                <div class="container-inner__skills">
+                   <h2 class="education__title">My education</h2>
+                    <ul>
+                        <li class="li-edu">Automotive and Electromechanical College</li>
+                        <li class="li-edu"> Saint Petersburg State University of Architecture and Civil Engineering (SPbGASU) Lifting and transportation, construction, road vehicles and equipment
+                            Specialist degree</li>
+                        <li class="li-edu">HTML courses in Epic Skills School</li>
+                    </ul>
+                    <h3>Language</h3>
+                    <p class="lang-text">English - B1 Intermediate <br> I have English classes every week and constant improve my skills.</p>
+                    <p class="lang-text">Native language - Russian</p>
+                </div>
+            </div>   
+        </section>
+    </main>
+    <footer>
+        <div class="container-footer">
+            <div class="footer-links">
+                <a href="https://rs.school/js-stage0/"><img class="footer-rss" src="/img/rss.svg" alt="RSSchool"></a>
+                <a href="https://github.com/Kosteksal"><img class="footer-git" src="/img/git.png" alt="GitHub"></a>
+            </div>
+            <p class="footer-text">2021</p>
+        </div>
+    </footer>
+    </body>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/script.js"></script>
