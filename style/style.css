@@ -182,10 +182,6 @@ a {
     margin: 0 auto;
 }
 
-.toggler span {
-    /*top: 21px;*/
-}
-
 .toggler:after,
 .toggler:before {
     content: '';
@@ -398,7 +394,7 @@ h3 {
     width: 100%;
     left: 0;
     position: absolute;
-    top: 2450px;
+    top: 2550px;
 }
 
 .container-footer {
@@ -541,7 +537,7 @@ h3 {
     }
 
     .education__title:after {
-        top: 2220px;
+        top: 2380px;
     }
 
 }
@@ -672,7 +668,7 @@ h3 {
     }
 
     .education__title:after {
-        top: 2400px;
+        top: 2530px;
     }
 
 }
